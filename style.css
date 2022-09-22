@@ -4,3 +4,23 @@
     --violet: #A16AE8;
     --Fuschia: #FD49A0;
 }
+
+body {
+    background-color: var(--aqua);
+}
+
+header {
+    background-color: var(--purple);
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2 {
+    color: var(--violet);
+}
+
+#projects {
+    border-color: var(--Fuschia);
+}
