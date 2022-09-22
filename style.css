@@ -24,3 +24,11 @@ h2 {
 #projects {
     border-color: var(--Fuschia);
 }
+
+img {
+    width: 100px;
+}
+
+#First-Project img {
+    width: 200px;
+}
