@@ -1,3 +1,4 @@
+/*setting the color palette*/
 :root {
     --purple: #603F8B;
     --aqua: #e0ffff;
@@ -8,7 +9,7 @@
 body {
     background-color: var(--aqua);
 }
-
+/*there's a weird space around the header that I don't like or know how to get rid of*/
 header {
     background-color: var(--purple);
     display: flex;
@@ -41,7 +42,7 @@ a {
 nav li:active {
     color: var(--violet);
 }
-
+/*tried to make it so that it's a different color when hovered over but this code doesn't seem to be working for whatever reason*/
 nav li:focus {
     color: var(--Fuschia);
 }
@@ -76,7 +77,7 @@ p {
     font-size: 20px;
     text-align: center;
 }
-
+/*tried desperately to make them appear in different rows/columns with no luck*/
 #projects {
     display: flex;
     flex-direction: column;
@@ -105,16 +106,16 @@ img {
     border-bottom-right-radius: 25px;
     align-items: center;
 }
-
+/*trying to make the text in the border for the projects appear in the vertical center but this code is not working for whatever reason*/
 .projects li {
     align-items: center;
 }
-
+/*making the images fit within the border*/
 .projects img {
     border-top-right-radius: 25px;
     border-bottom-right-radius: 25px;
 }
-
+/*it says it's aligned in the center but it's offset to the right a little bit and I can't figure out why*/
 #Contact li {
     text-align: center;
     font-size: 20px;
