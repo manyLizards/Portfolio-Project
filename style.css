@@ -9,7 +9,7 @@
 body {
     background-color: var(--aqua);
 }
-/*there's a weird space around the header that I don't like or know how to get rid of*/
+//there's a weird space around the header that I don't like or know how to get rid of
 header {
     background-color: var(--purple);
     display: flex;
