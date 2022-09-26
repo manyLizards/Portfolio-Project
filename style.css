@@ -1,3 +1,4 @@
+/*setting a color palette*/
 :root {
     --purple: #603F8B;
     --aqua: #e0ffff;
@@ -9,11 +10,13 @@ body {
     background-color: var(--aqua);
 }
 
+/*why is there a space around the header?*/
+
 header {
     background-color: var(--purple);
     display: flex;
     margin: auto;
-    padding: 20px;
+    padding: auto;
     justify-content: space-evenly;
     position: relative;
 }
@@ -23,6 +26,8 @@ header img {
     border-color: var(--violet);
     border-style: groove;
 }
+
+/*Finally made the nav not look like all one word. The key was margins. Still not as spaced out as I'd like but at least it's not all one word now.*/
 
 nav li{
     color: var(--aqua);
@@ -41,6 +46,8 @@ a {
 nav li:active {
     color: var(--violet);
 }
+
+/*why isn't the focus working?*/
 
 nav li:focus {
     color: var(--Fuschia);
@@ -77,6 +84,8 @@ p {
     text-align: center;
 }
 
+/*figure out a way to make the projects display how you actually want them to*/
+
 #projects {
     display: flex;
     flex-direction: column;
@@ -92,6 +101,8 @@ img {
     width: 250px;
 }
 
+/*been trying so desperately to get the text in the project bubbles to center vertically but the only note I have on how to do that isn't workinggggg*/
+
 .projects {
     width: auto;
     margin:auto;
@@ -106,25 +117,35 @@ img {
     align-items: center;
 }
 
+/*attempt #2 to get the words in the project bubbles to align vertically*/
+
 .projects li {
     align-items: center;
 }
+
+/*makes the project images fit into the border bubble, not quite sure how to get them to line up with the border better though. Maybe set the heights to be the same number?*/
 
 .projects img {
     border-top-right-radius: 25px;
     border-bottom-right-radius: 25px;
 }
 
+/*Why is this off center*/
+
 #Contact li {
     text-align: center;
     font-size: 20px;
+    padding: 10px;
+    margin: auto;
 }
+
+/*again with the weird space around the color like it does with the header. Make it stop.*/
 
 footer {
     background-color:var(--purple);
 }
 
-/*making the screen responsive*/
+/*making the screen look nice on smaller screens. Set to 280px since that was the smallest screen size I could find on the console.*/
 
 @media screen and (min-width: 280px) {
     header {
