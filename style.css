@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 /*setting a color palette*/
-=======
-//setting the color palette
->>>>>>> 0e165ffa5976dc49cdce2bc9010bed42a3c74e51
 :root {
     --purple: #603F8B;
     --aqua: #e0ffff;
@@ -13,13 +9,9 @@
 body {
     background-color: var(--aqua);
 }
-<<<<<<< HEAD
 
 /*why is there a space around the header?*/
 
-=======
-//there's a weird space around the header that I don't like or know how to get rid of
->>>>>>> 0e165ffa5976dc49cdce2bc9010bed42a3c74e51
 header {
     background-color: var(--purple);
     display: flex;
@@ -54,13 +46,9 @@ a {
 nav li:active {
     color: var(--violet);
 }
-<<<<<<< HEAD
 
 /*why isn't the focus working?*/
 
-=======
-//tried to make it so that it's a different color when hovered over but this code doesn't seem to be working for whatever reason
->>>>>>> 0e165ffa5976dc49cdce2bc9010bed42a3c74e51
 nav li:focus {
     color: var(--Fuschia);
 }
@@ -95,13 +83,9 @@ p {
     font-size: 20px;
     text-align: center;
 }
-<<<<<<< HEAD
 
 /*figure out a way to make the projects display how you actually want them to*/
 
-=======
-//tried desperately to make them appear in different rows/columns with no luck
->>>>>>> 0e165ffa5976dc49cdce2bc9010bed42a3c74e51
 #projects {
     display: flex;
     flex-direction: column;
@@ -132,7 +116,6 @@ img {
     border-bottom-right-radius: 25px;
     align-items: center;
 }
-<<<<<<< HEAD
 
 /*attempt #2 to get the words in the project bubbles to align vertically*/
 
@@ -142,24 +125,19 @@ img {
 
 /*makes the project images fit into the border bubble, not quite sure how to get them to line up with the border better though. Maybe set the heights to be the same number?*/
 
-=======
-//trying to make the text in the border for the projects appear in the vertical center but this code is not working for whatever reason
 .projects li {
     align-items: center;
 }
+
 /*making the images fit within the border*/
->>>>>>> 0e165ffa5976dc49cdce2bc9010bed42a3c74e51
+
 .projects img {
     border-top-right-radius: 25px;
     border-bottom-right-radius: 25px;
 }
-<<<<<<< HEAD
 
 /*Why is this off center*/
 
-=======
-//it says it's aligned in the center but it's offset to the right a little bit and I can't figure out why
->>>>>>> 0e165ffa5976dc49cdce2bc9010bed42a3c74e51
 #Contact li {
     text-align: center;
     font-size: 20px;
@@ -173,11 +151,7 @@ footer {
     background-color:var(--purple);
 }
 
-<<<<<<< HEAD
 /*making the screen look nice on smaller screens. Set to 280px since that was the smallest screen size I could find on the console.*/
-=======
-//making the screen responsive
->>>>>>> 0e165ffa5976dc49cdce2bc9010bed42a3c74e51
 
 @media screen and (min-width: 280px) {
     header {
