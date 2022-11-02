@@ -1,4 +1,6 @@
+
 /*setting a color palette*/
+
 :root {
     --purple: #603F8B;
     --aqua: #e0ffff;
@@ -124,12 +126,6 @@ img {
 }
 
 /*makes the project images fit into the border bubble, not quite sure how to get them to line up with the border better though. Maybe set the heights to be the same number?*/
-
-.projects li {
-    align-items: center;
-}
-
-/*making the images fit within the border*/
 
 .projects img {
     border-top-right-radius: 25px;
