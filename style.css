@@ -15,7 +15,7 @@ body {
 /*why is there a space around the header?*/
 
 header {
-    background-color: var(--purple);
+    background-image:url("./images/portoflio-background2.avif");
     display: flex;
     margin: auto;
     padding: auto;
@@ -84,6 +84,20 @@ p {
     padding: 45px;
     font-size: 20px;
     text-align: center;
+    color: var(--aqua);
+    line-height: 50px;
+}
+
+#About-Me {
+    background-color: #1D1715;
+}
+
+#My-Work {
+    background-color: #1D1715;
+}
+
+#Contact {
+    background-color: #1D1715;
 }
 
 /*figure out a way to make the projects display how you actually want them to*/
@@ -109,7 +123,7 @@ img {
     width: auto;
     margin:auto;
     text-align: center;
-    color: var(--purple);
+    color: var(--aqua);
     font-size: 15px;
     border-style: solid;
     border-color: var(--violet);
@@ -132,13 +146,13 @@ img {
     border-bottom-right-radius: 25px;
 }
 
-/*Why is this off center*/
-
-#Contact li {
+#Contact ul {
     text-align: center;
     font-size: 20px;
     padding: 10px;
     margin: auto;
+    color: var(--Fuschia);
+    text-decoration: underline;
 }
 
 /*again with the weird space around the color like it does with the header. Make it stop.*/
