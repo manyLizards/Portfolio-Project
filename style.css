@@ -2,20 +2,19 @@
 /*setting a color palette*/
 
 :root {
-    --purple: #603F8B;
-    --aqua: #e0ffff;
-    --violet: #A16AE8;
-    --Fuschia: #FD49A0;
+    --blueGreen: #1f6f6a;
+    --purple: #5f2583;
+    --grey: #c9c9c9;
+    --blue: #243A82
 }
 
 body {
-    background-color: var(--aqua);
+    background-color: var(--grey);
 }
 
 /*why is there a space around the header?*/
 
 header {
-    background-image:url("./images/portoflio-background2.avif");
     display: flex;
     margin: auto;
     padding: auto;
@@ -25,14 +24,14 @@ header {
 
 header img {
     border-radius: 25px;
-    border-color: var(--violet);
+    border-color: var(--blue);
     border-style: groove;
 }
 
 /*Finally made the nav not look like all one word. The key was margins. Still not as spaced out as I'd like but at least it's not all one word now.*/
 
 nav li{
-    color: var(--aqua);
+    color: var(--blue);
     justify-content: space-evenly;
     position: relative;
     margin-left: 50px;
@@ -46,13 +45,13 @@ a {
 }
 
 nav li:active {
-    color: var(--violet);
+    color: var(--blueGreen);
 }
 
 /*why isn't the focus working?*/
 
 nav li:focus {
-    color: var(--Fuschia);
+    color: var(--yellow);
 }
 
 ul {
@@ -62,20 +61,18 @@ ul {
 h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 50px;
-    text-shadow: 1px 1px 5px var(--violet);
-    color: var(--Fuschia);
+    color: var(--blueGreen);
 }
 
 h2 {
-    color: var(--violet);
+    color: var(--purple);
     margin: auto;
     width: 50%;
-    border: 3px groove var(--Fuschia);
+    border: 3px groove var(--blueGreen);
     padding: 20px;
     border-radius: 25px;
     text-align: center;
-    font-size: 40px;
-    text-shadow: 1px 1px 5px var(--purple)
+    font-size: 40px
 }
 
 p {
@@ -84,20 +81,20 @@ p {
     padding: 45px;
     font-size: 20px;
     text-align: center;
-    color: var(--aqua);
+    color: var(--blueGreen);
     line-height: 50px;
 }
 
 #About-Me {
-    background-color: #1D1715;
+    background-color: var(--grey);
 }
 
 #My-Work {
-    background-color: #1D1715;
+    background-color: var(--grey);
 }
 
 #Contact {
-    background-color: #1D1715;
+    background-color: var(--grey);
 }
 
 /*figure out a way to make the projects display how you actually want them to*/
@@ -123,10 +120,10 @@ img {
     width: auto;
     margin:auto;
     text-align: center;
-    color: var(--aqua);
+    color: var(--blue);
     font-size: 15px;
     border-style: solid;
-    border-color: var(--violet);
+    border-color: var(--blueGreen);
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
     border-bottom-right-radius: 25px;
@@ -151,14 +148,14 @@ img {
     font-size: 20px;
     padding: 10px;
     margin: auto;
-    color: var(--Fuschia);
+    color: var(--blue);
     text-decoration: underline;
 }
 
 /*again with the weird space around the color like it does with the header. Make it stop.*/
 
 footer {
-    background-color:var(--purple);
+    background-color:var(--grey);
 }
 
 /*making the screen look nice on smaller screens. Set to 280px since that was the smallest screen size I could find on the console.*/
