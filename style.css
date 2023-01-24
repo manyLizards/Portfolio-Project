@@ -4,12 +4,12 @@
 :root {
     --blueGreen: #1f6f6a;
     --purple: #5f2583;
-    --beige: #fee1af;
+    --silver: #C0C0C0;
     --blue: #243A82
 }
 
 body {
-    background-color: var(--beige);
+    background-color: var(--silver);
 }
 
 /*why is there a space around the header?*/
@@ -86,15 +86,15 @@ p {
 }
 
 #About-Me {
-    background-color: var(--beige);
+    background-color: var(--silver);
 }
 
 #My-Work {
-    background-color: var(--beige);
+    background-color: var(--silver);
 }
 
 #Contact {
-    background-color: var(--beige);
+    background-color: var(--silver);
 }
 
 /*figure out a way to make the projects display how you actually want them to*/
@@ -155,7 +155,7 @@ img {
 /*again with the weird space around the color like it does with the header. Make it stop.*/
 
 footer {
-    background-color:var(--beige);
+    background-color:var(--silver);
 }
 
 /*making the screen look nice on smaller screens. Set to 280px since that was the smallest screen size I could find on the console.*/
