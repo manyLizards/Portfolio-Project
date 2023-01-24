@@ -9,7 +9,8 @@
 }
 
 body {
-    background-color: var(--silver);
+    background: rgb(192,192,192);
+    background: linear-gradient(90deg, rgba(192,192,192,1) 0%, rgba(252,231,231,1) 50%, rgba(192,192,192,1) 100%);
 }
 
 /*why is there a space around the header?*/
