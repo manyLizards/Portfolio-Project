@@ -10,7 +10,7 @@
 
 body {
     background: rgb(192,192,192);
-    background: linear-gradient(90deg, rgba(192,192,192,1) 0%, rgba(252,231,231,1) 50%, rgba(192,192,192,1) 100%);
+background: linear-gradient(90deg, rgba(192,192,192,1) 0%, rgba(255,239,226,1) 50%, rgba(192,192,192,1) 100%);
 }
 
 /*why is there a space around the header?*/
@@ -82,20 +82,22 @@ p {
     padding: 45px;
     font-size: 20px;
     text-align: center;
-    color: var(--blueGreen);
     line-height: 50px;
 }
 
 #About-Me {
-    background-color: var(--silver);
+    background: rgb(192,192,192);
+background: linear-gradient(90deg, rgba(192,192,192,1) 0%, rgba(255,239,226,1) 50%, rgba(192,192,192,1) 100%);
 }
 
 #My-Work {
-    background-color: var(--silver);
+    background: rgb(192,192,192);
+background: linear-gradient(90deg, rgba(192,192,192,1) 0%, rgba(255,239,226,1) 50%, rgba(192,192,192,1) 100%);
 }
 
 #Contact {
-    background-color: var(--silver);
+    background: rgb(192,192,192);
+background: linear-gradient(90deg, rgba(192,192,192,1) 0%, rgba(255,239,226,1) 50%, rgba(192,192,192,1) 100%);
 }
 
 /*figure out a way to make the projects display how you actually want them to*/
