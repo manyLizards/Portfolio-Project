@@ -3,17 +3,15 @@
 
 :root {
     --blueGreen: #1f6f6a;
-    --purple: #5f2583;
+    --purple: #5000CE;
     --silver: #C0C0C0;
-    --blue: #243A82
+    --red: #6B1209;
 }
 
 body {
     background: rgb(192,192,192);
-background: linear-gradient(90deg, rgba(192,192,192,1) 0%, rgba(255,239,226,1) 50%, rgba(192,192,192,1) 100%);
+    background: linear-gradient(90deg, rgba(192,192,192,1) 0%, rgba(255,239,226,1) 50%, rgba(192,192,192,1) 100%);
 }
-
-/*why is there a space around the header?*/
 
 header {
     display: flex;
@@ -25,48 +23,49 @@ header {
 
 header img {
     border-radius: 25px;
-    border-color: var(--blue);
+    border-color: var(--red);
     border-style: groove;
+    object-fit: cover;
 }
 
 /*Finally made the nav not look like all one word. The key was margins. Still not as spaced out as I'd like but at least it's not all one word now.*/
 
 nav li{
-    color: var(--blue);
-    justify-content: space-evenly;
+    color: var(--red);
+    justify-content: space-between;
     position: relative;
-    margin-left: 50px;
-    margin-right: 50px;
     font-size: 25px;
     font-family:Arial, Helvetica, sans-serif;
 }
 
 a {
+    color: var(--purple);
     text-decoration: none;
 }
 
-nav li:active {
-    color: var(--blueGreen);
+nav li :active {
+    color: var(--red);
 }
 
 /*why isn't the focus working?*/
 
-nav li:focus {
-    color: var(--yellow);
+nav li :focus {
+    color: var(--purple);
 }
 
 ul {
     list-style-type: none;
+    display: flex;
 }
 
 h1 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font: italic 1.2em "Fira Sans", serif;
     font-size: 50px;
     color: var(--blueGreen);
 }
 
 h2 {
-    color: var(--purple);
+    color: var(--red);
     margin: auto;
     width: 50%;
     border: 3px groove var(--blueGreen);
@@ -98,7 +97,12 @@ background: linear-gradient(90deg, rgba(192,192,192,1) 0%, rgba(255,239,226,1) 5
 #Contact {
     background: rgb(192,192,192);
 background: linear-gradient(90deg, rgba(192,192,192,1) 0%, rgba(255,239,226,1) 50%, rgba(192,192,192,1) 100%);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
+
 
 /*figure out a way to make the projects display how you actually want them to*/
 
@@ -109,21 +113,21 @@ background: linear-gradient(90deg, rgba(192,192,192,1) 0%, rgba(255,239,226,1) 5
     justify-content: center;
 }
 
-img {
-    width: 150px;
-}
-
-#First-Project img {
-    width: 250px;
-}
-
 /*been trying so desperately to get the text in the project bubbles to center vertically but the only note I have on how to do that isn't workinggggg*/
+
+.project-header {
+    display: flex;
+    color: var(--silver);
+    font-size: 25px;
+    background-color: var(--blueGreen);
+    justify-content: center;
+    align-items: center;
+}
 
 .projects {
     width: auto;
     margin:auto;
     text-align: center;
-    color: var(--blue);
     font-size: 15px;
     border-style: solid;
     border-color: var(--blueGreen);
@@ -141,9 +145,13 @@ img {
 
 /*makes the project images fit into the border bubble, not quite sure how to get them to line up with the border better though. Maybe set the heights to be the same number?*/
 
-.projects img {
-    border-top-right-radius: 25px;
-    border-bottom-right-radius: 25px;
+.project-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.project-content img {
+    width: 500px;
 }
 
 #Contact ul {
@@ -151,8 +159,9 @@ img {
     font-size: 20px;
     padding: 10px;
     margin: auto;
-    color: var(--blue);
+    color: var(--purple);
     text-decoration: underline;
+    justify-content: center;
 }
 
 /*again with the weird space around the color like it does with the header. Make it stop.*/
@@ -182,6 +191,10 @@ footer {
     }
     h2 {
         font-size: 25px;
+    }
+    img {
+        width: 200px;
+        height: 200px;
     }
 
 }
